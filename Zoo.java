@@ -21,7 +21,6 @@ class Zoo
 
 	public static void main(String args[] )
 	{
-		Class[] classes;
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Choose what animal to learn about:");
 		System.out.println("(a) Hippo");
@@ -32,17 +31,13 @@ class Zoo
 		if(input.equals("a"))
 		{
 			printSpecies(animals[0]);
-			printName(animals[0]);
-			//printStatus(animals[0]);
-			//printHungerStatus(animals[0]);			
+			printName(animals[0]);			
 			System.out.println();	
 		}
 		else if(input.equals("b"))
 		{
 			printSpecies(animals[1]);
 			printName(animals[1]);
-			//printStatus(animals[1]);
-			//printHungerStatus(animals[1]);
 			System.out.println();		
 		}
 		else

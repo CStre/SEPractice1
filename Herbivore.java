@@ -9,5 +9,4 @@ public abstract class Herbivore extends Animals
 	{
 		System.out.println("I eat plants");
 	}
-}
-			
+}			
