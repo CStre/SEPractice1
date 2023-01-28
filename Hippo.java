@@ -1,8 +1,8 @@
 public class Hippo extends Herbivore
 {
-	public Hippo(String species, String homeStatus, String name, String hungry)
+	public Hippo(String species, String name)
 	{
-		super (species, homeStatus, name, hungry);	
+		super(species, name);	
 	}
 
 	public String whereIStay()

@@ -1,8 +1,8 @@
 public class Flamingo extends Herbivore
 {
-	public Flamingo(String species, String homeStatus, String name, String hungry)
+	public Flamingo(String species, String name)
 	{
-		super(species, homeStatus, name, hungry);
+		super(species, name);
 	}
 
 	public String whereIStay()

@@ -1,8 +1,8 @@
 public abstract class Herbivore extends Animals
 {
-	public Herbivore(String species, String homeStatus, String hungry, String name)
+	public Herbivore(String species, String name)
 	{
-		super(species, homeStatus, name, hungry);
+		super(species, name);
 	}
 
 	public void whatIEat()
